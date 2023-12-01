@@ -1,0 +1,57 @@
+@font-face {
+    font-family: BebasNeue;
+    src: url("/BebasNeue-Regular.ttf");
+
+}
+
+
+* {
+    
+    color: #1e1e1e;
+
+background-color: transparent;
+
+font-family: 'Roboto', sans-serif;
+
+font-size: 12pt;
+
+font-weight: 400;
+
+list-style: none;
+
+text-decoration: none;
+
+border: solid 2px rgb(202, 27, 27);
+
+outline: none;
+margin: 0;
+padding: 0;
+
+
+
+
+}
+li{
+   width: 200px;
+   height: 50px;
+   margin: 0px;
+   padding: 0px;
+}
+
+.header {
+    padding: 1em;
+}
+.header .navbar {
+    display: flex;
+    justify-content: space-between;
+}
+.header .navbar .list {
+    gap: 16;
+    display: flex;
+    align-items: center;
+
+
+
+    
+
+}
