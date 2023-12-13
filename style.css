@@ -7,7 +7,7 @@
 
 * {
     
-    color: #1e1e1e;
+color: #1e1e1e;
 
 background-color: transparent;
 
@@ -31,7 +31,7 @@ padding: 0;
 
 
 }
-li{
+.li{
    width: 200px;
    height: 50px;
    margin: 0px;
@@ -49,9 +49,105 @@ li{
     gap: 16;
     display: flex;
     align-items: center;
+}
 
+.jumbotron {
+    width: 100%;
+    display: flex;
+    flex-direction: flex start;
+    align-items: left;
+    margin: 6em auto;
+    gap: 2em;
+  }
 
+h1.jumnotron_title {
+    font-size: 4em;
+    text-align: left;
+}
 
+p.jumnotron_title_param {
+
+    display: flex;
+    justify-content: space-between;
+}
+
+img.img_computador {
+    border-radius: 2em;
+    padding: 1em;
+    image-orientation: ;
+}
+
+/* ----------------------------------------------------------------------
+-----------------------Contenido de la Página-------------------------- 
+-------------------------------------------------------------------------*/
+
+.contenido {
+    padding: 0 2.6em;
+    display: flex;
+    width: 100%;
+    max-width: var(--MaxWidth);
+    margin: 0 auto;
+}
+
+.contenido_parrafo {
+    font-size: 4em;
+    text-align: right;
+}
+
+p.contenido_parrafo_1 {
     
+    display: flex;
+    justify-content: space-between;
+    text-align:right;
 
+}
+
+p.contenido_parrafo_2 {
+    display: flex;
+    justify-content: space-between;
+    text-align:right;
+}
+
+
+/*--------------------------------------------------------------------------------------------
+-----------------------------------section2---------------------------------------------------
+---------------------------------------------------------------------------------------------*/
+
+.section2 {
+    display: flex;
+  flex-direction: column;
+  margin: 5em auto;
+}
+
+p.tab {
+    font-size: 4em;
+    text-align: left;
+}
+
+p.tab_parrafo  {
+    display: flex;
+    justify-content: space-between;
+    text-align:left;
+}
+
+
+/*-------------------------------------------------------------------------------------------------------
+-------------------------------------section3-----------------------------------------------------------
+-------------------------------------------------------------------------------------------------------*/
+
+.section3  {
+    display: flex;
+    flex-direction: column;
+    margin: 5em auto;
+}
+
+p.laptop   {
+    font-size: 4em;
+    text-align: right;  
+}
+
+p.laptop_parrafo  {
+    display: flex;
+    justify-content: space-between;
+    text-align:right;
 }
