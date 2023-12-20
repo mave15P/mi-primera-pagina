@@ -110,6 +110,10 @@ button.button1 {
 -------------------------------------------------------------------------*/
 
 
+body {
+margin: 50px;
+}
+
 .section {
     display: flex;
     flex-direction: column;
@@ -237,14 +241,15 @@ ul.parte_final {
 }
 
 button.button3 {
-margin: 2px 15px;
+margin-left:  10px;
 color: #031CA6;
 border-color: #031CA6;
 border-width: 1pt;
 border-style: solid;
+display: block;
   padding: 10px;
   border-radius: 10px;
-  align-items:cent ;
+  align-items:center ;
   
 }
 
@@ -253,30 +258,19 @@ border-style: solid;
 -------------------------------------footer de la pagina-----------------------------------------------------
 -------------------------------------------------------------------------------------------------------*/
 
-.section_footer {
+section.section_footer {
     width: 100%;
-  
-  display: contents;
+    display: flex;
+  flex-direction: column;
     align-items: center;
+    justify-content: center;
     margin: 6em auto;
-    gap: 2em;
+   
 
+    }
 
-.unete {
-    gap: 1cm;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    margin: 0px 15px;
-}
+    
 
-.pcmac {
-    gap: 1cm;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    margin: 0px 15px;
-}
 
 
 .form {
@@ -290,4 +284,15 @@ border-style: solid;
      color: var(--ColorWhite));
      width: 30em;
      
+   }
+
+   .submit  {
+    display: inline-block;
+    margin: 2px 5px;
+  background-color: #031CA6;
+  color: antiquewhite;
+  border-color: transparent;
+  padding: 10px;
+  border-radius: 10px;
+  align-items:left ;
    }
